@@ -10,6 +10,7 @@ public class PrintNumWithWhile {
             System.out.println(i);
             i = i + 2;
         }
+
         System.out.println("Odd numbers:");
         //TODO: write code to Print all odd numbers less than 100
         i = 0;
