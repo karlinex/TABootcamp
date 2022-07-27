@@ -7,6 +7,7 @@ public class Rectangle extends Shape {
     public Rectangle() {
     }
 
+
     public void setA(int A) {
         this.A = A;
     }
@@ -25,11 +26,11 @@ public class Rectangle extends Shape {
 
     // TODO: Implement calculateArea and calculatePerimeter in this class
     public double calculateArea() {
-        return this.getA() * this.getB();
+        return A * B;
     }
 
     public double calculatePerimeter() {
-        return 2 * (this.getA() + this.getB());
+        return 2 * (A + B);
     }
 
 

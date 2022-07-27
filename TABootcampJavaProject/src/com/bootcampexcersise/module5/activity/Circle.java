@@ -13,11 +13,11 @@ public class Circle extends Shape{
         return R;
     }
     public double calculateArea() {
-        return 3.14 * this.R*this.R;
+        return 3.14 * R * R;
     }
 
     public double calculatePerimeter() {
-        return 6.28 * this.R;
+        return 6.28 * R;
     }
 
 }
