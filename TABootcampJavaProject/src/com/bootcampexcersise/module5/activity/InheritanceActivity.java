@@ -8,7 +8,6 @@ public class InheritanceActivity {
         // and age as 21
         Person_I p = new Person_I("Sarah Johnson", 21);
 
-
         System.out.println("-----------------------------");
         Employee_I e = new Employee_I();
         e.setName("Shawn Cun");

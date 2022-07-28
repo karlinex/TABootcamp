@@ -12,7 +12,7 @@ public class ArithmeticExceptionActivity {
 
         try {
             int result = num1 / num2;
-            System.out.println("The result is :" + result);
+            System.out.println("The result is: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Division bu 0 is impossible");
         } finally {
