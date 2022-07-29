@@ -14,7 +14,7 @@ public class ArithmeticExceptionActivity {
             int result = num1 / num2;
             System.out.println("The result is: " + result);
         } catch (ArithmeticException e) {
-            System.out.println("Division bu 0 is impossible");
+            System.out.println("Division by 0 is impossible");
         } finally {
             System.out.println("Thank you for using this program.");
         }
